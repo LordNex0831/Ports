@@ -1,0 +1,12 @@
+The regressor model computes total daily vessel traffic given the following parameters:
+
+    1. Latitude (convert to decimal format)
+    2. Longitude (convert to decimal format)
+    3. Day of month (can be extracted using .date)
+    4. Day of week (1-7 for monday-Sunday)
+    5. Month of year (1-12 for the months)
+    6. Port size (1-5 for array('Very Small','Small','Meduim','Large','Very Large'))
+    
+Please fit the X parameters (using sklern.preprocessing.StandardScaler().fit(X).transform(X)) before proceeding with either further training the model or predicting the values.
+
+Do check the model accuracy prior to any changes.
