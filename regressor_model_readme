@@ -13,4 +13,4 @@ y=pd.DataFrame[['Total Daily Vessle Traffic']]
 
 Fit the X parameters (using sklern.preprocessing.StandardScaler().fit(X).transform(X)) before proceeding with either further training the model or predicting the values.
 
-Do check the model accuracy prior to any changes.
+Do check the model accuracy (using r2 score) prior to any changes.
