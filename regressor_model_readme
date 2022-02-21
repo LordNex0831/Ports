@@ -7,6 +7,6 @@ The regressor model computes total daily vessel traffic given the following para
     5. Month of year (1-12 for the months)
     6. Port size (1-5 for array('Very Small','Small','Medium','Large','Very Large'))
     
-Please fit the X parameters (using sklern.preprocessing.StandardScaler().fit(X).transform(X)) before proceeding with either further training the model or predicting the values.
+Fit the X parameters (using sklern.preprocessing.StandardScaler().fit(X).transform(X)) before proceeding with either further training the model or predicting the values.
 
 Do check the model accuracy prior to any changes.
