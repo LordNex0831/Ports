@@ -8,8 +8,8 @@ The regressor model computes total daily vessel traffic given the following para
     6. Port size (1-5 for array('Very Small','Small','Medium','Large','Very Large'))
     
 Create the following X and y for the model:
-X=pd.DataFrame[['Latitude','Longitude','Port Size','Day of month','Day of week','Month of year']]
-y=pd.DataFrame[['Total Daily Vessle Traffic']]
+X=panda.DataFrame[['Latitude','Longitude','Port Size','Day of month','Day of week','Month of year']]
+y=panda.DataFrame[['Total Daily Vessle Traffic']]
 
 Fit the X parameters (using sklern.preprocessing.StandardScaler().fit(X).transform(X)) before proceeding with either further training the model or predicting the values.
 
